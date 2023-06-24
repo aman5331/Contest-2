@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+#dataTable {
+    border-collapse: collapse;
+    width: 25%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #dataTable th,
+  #dataTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: white;
+  }
+
+  #searchInput {
+    padding: 8px;
+    width: 250px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 405px;
+  }
+
+  #sortMarketCapButton,
+  #sortPercentageChangeButton {
+    padding: 8px;
+    margin-right: 10px;
+    position: relative;
+    left: 410px;
+    width: 200px;
+  }
+
+  #dataTable img {
+    width: 50px; 
+    height: auto; 
+  }
